@@ -29,6 +29,7 @@ export default class NewListItem extends Component {
                     ref={ref => this.input = ref}
                     maxLength={this.maxLengthInput}
                     returnKeyType="done"
+                    underlineColorAndroid={"transparent"}
                 />
             </View>
             <Text style={{fontSize: 18, alignSelf: "flex-end", paddingRight: 20, paddingTop: 5 }}>

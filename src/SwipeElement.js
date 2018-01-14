@@ -84,6 +84,7 @@ export default class SwipeElement extends Component {
                 ref={ref => this._scrollElt = ref} style={{
                 width: width - SIDE_ELEMENT_WIDTH,
                 borderRightWidth: 1, borderLeftWidth: 1, borderColor: "#ccc",
+                backgroundColor: "white"
             }}>
                 <Text style={{padding: 15, fontSize: 20}}>
                     {this.props.item.text}

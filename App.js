@@ -51,7 +51,7 @@ export default class App extends Component {
                 key: index,
                 isBucket: Math.random() > 0.5
             })),
-            currentNavbar: NAVBAR.NEW_ITEM,
+            currentNavbar: NAVBAR.GENERAL,
             currentActiveTab: 0,
             inputText: ""
         };
