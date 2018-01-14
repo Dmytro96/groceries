@@ -18,7 +18,7 @@ export default function EditableRow(props) {
             <Image
                 resizeContent="contain"
                 source={IMAGES.minus}
-                style={{ width: 30, height: 30}}
+                style={{ width: 25, height: 25}}
             />
         </TouchableOpacity>
         <Text style={{paddingVertical: 15, marginHorizontal: 15, fontSize: 20}}>
