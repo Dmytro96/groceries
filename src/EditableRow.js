@@ -4,9 +4,8 @@ import {IMAGES} from "./constants";
 
 export default function EditableRow(props) {
     return <View style={{
-        borderRightWidth: 1,
-        borderLeftWidth: 1,
         borderColor: "#ccc",
+        borderBottomWidth: 1,
         flexDirection: "row",
         alignItems: "center"
     }}>
